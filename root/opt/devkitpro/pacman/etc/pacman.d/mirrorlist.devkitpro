@@ -1,0 +1,7 @@
+##
+## devkitpro repository mirrorlist
+##
+
+## Primary
+## devkitpro.org
+Server = http://downloads.devkitpro.org/portlibs

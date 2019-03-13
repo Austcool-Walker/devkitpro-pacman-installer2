@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export PATH=/opt/devkitpro/pacman/bin:$PATH
+exec /opt/devkitpro/pacman/bin/pacman-key "$@"

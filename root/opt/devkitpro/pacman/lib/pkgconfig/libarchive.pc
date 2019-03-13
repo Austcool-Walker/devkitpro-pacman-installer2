@@ -1,0 +1,11 @@
+prefix=/opt/devkitpro/pacman
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libarchive
+Description: library that can create and read several streaming archive formats
+Version: 3.3.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -larchive
+Libs.private: -lnettle -lexpat -lxml2 -llzma -llz4 -lbz2 -lz 
