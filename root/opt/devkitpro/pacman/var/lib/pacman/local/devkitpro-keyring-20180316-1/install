@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+post_install() {
+  /usr/local/bin/dkp-pacman-key --populate devkitpro
+}

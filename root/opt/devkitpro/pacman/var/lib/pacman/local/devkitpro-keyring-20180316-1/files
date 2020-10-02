@@ -1,0 +1,11 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/pacman/
+opt/devkitpro/pacman/share/
+opt/devkitpro/pacman/share/pacman/
+opt/devkitpro/pacman/share/pacman/keyrings/
+opt/devkitpro/pacman/share/pacman/keyrings/devkitpro-revoked
+opt/devkitpro/pacman/share/pacman/keyrings/devkitpro-trusted
+opt/devkitpro/pacman/share/pacman/keyrings/devkitpro.gpg
+
